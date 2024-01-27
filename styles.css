@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+}
+
+body {
+  max-width: 100%;
+  font-family: 'Outfit','Young Serif';
+  font-size: 16px;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cooking-recipe {
+  width: 650px;
+  height: 100%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 32px;
+  margin: 50px 0;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+}
+
+/*el tamaño de la imagen se ajusta en el div padre */
+
+h1 {
+  font-family: Young Serif;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  color: hsl(24, 5%, 18%);
+  margin: 10px 0 25px 0;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  margin-left: 6px;
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  font-family: 'Outfit';
+  font-size: medium;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  text-indent: -10px;
+  border-radius: 10px;
+
+}
+
+h2 {
+  font-family: 'Young Serif';
+  font-weight: 400;
+  color:hsl(0, 89%, 26%);
+  margin-top: 20px; 
+  margin-bottom: 10px;
+}
+
+.ingredients-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  margin-left: -18px;
+}
+
+.instructions-list {
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: medium;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: -20px;
+  line-height: 30px;
+}
+
+li {
+  text-wrap:  14px; 
+  padding-left: 15px;
+}
+/*text-wrap: establece mismo margen en misma distancia en "li"*/
+
+ol li::marker {
+  color: hsl(0, 89%, 26%);
+  font-weight: 700;
+}
+
+.nutritional-values p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+td {
+  text-align: justify;
+  text-indent: 16px;
+  padding: 15px;
+}
+
+tr td:first-child {
+  color: hsl(24, 5%, 18%);
+
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr td {
+  border-bottom: 1px solid hsl(332, 51%, 32%);
+  color:hsl(0, 89%, 26%); 
+}
